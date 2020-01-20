@@ -123,14 +123,14 @@ a {
 }
 
 .second-nav__sub-item {
-  float: none;
-  padding: 1em;
-  display: block;
-  text-align: center;
+  	float: none;
+  	padding: 1em;
+  	display: block;
+  	text-align: center;
 }
 
 .second-nav__sub-item:hover {
-  background-color: #d9ecd0;
+  	background-color: #d9ecd0;
 }
 
 .second-nav__heading {
