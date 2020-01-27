@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.primary-nav {
+	display: grid;
+	grid-template-columns: 13% repeat(7, auto);
+	text-align: center;
+	background-color: #f5f9ed;
+	border-bottom: 1px solid #408e28;
+}
+
+.primary-nav__logo {
+	font-size: 1.2rem;
+	color: #4aa509;
+	align-self: center;
+	text-transform: uppercase;
+}
+
+.primary-nav__input_search {
+	border: none;
+	padding: 0.625em;
+  	font-size: 1.0625rem;
+  	text-align: center;
+  	border-left: 1px solid #408e08;
+  	border-right: 1px solid #408e08;
+  	background-color: #f5f9ed;
+}
+
+.primary-nav__content_items {
+  	display: none;
+  	position: absolute;
+ 	width: 100%;
+ 	left: 0;
+ 	padding: 0.938em;
+ 	background-color: rgba(21, 45, 3, 0.5);
+ 	opacity: 0.87;
+ 	top: 42px;
+}
+
+.primary-nav__content:hover .primary-nav__content_btn {
+  	color: #6b410a;
+  	font-size: 1rem;
+}
+
+.primary-nav__content:hover .primary-nav__content_items {
+ 	display: block;
+}
+
+.item {
+	padding: 0.938em 2.5em;
+	font-family: 'Rockwell';
+	color: #fff;
+}
+
+.item:hover {
+	color: #d0f4e6;
+}
+
+.sub-nav {
+	position: relative;
+  	display: inline-block;
+}
+
+.sub-nav__items {
+	display: none;
+  	position: absolute;
+  	background-color: #fcfcfc;
+  	width: 200px;
+  	border-radius: 0 5px 5px 5px;
+}
+
+.sub-nav__item {
+	display: block;
+	padding: 0.3em;
+	font-family: 'Rockwell';
+	text-align: left;
+}
+
+.sub-nav__btn {
+	color: #fff;
+}
+
+.primary-nav__content_btn, .sub-nav__btn {
+  	width: 100%;
+  	font-size: 0.895rem;  
+  	padding: 0.625em;
+  	background: none;
+  	border: none;
+  	outline: none;
+  	font-family: 'Rockwell';
+  	opacity: 0.9;
+}
+
+.sub-nav:hover .sub-nav__btn {
+  	color: #000;
+  	background-color: #fcfcfc;
+}
+
+.sub-nav:hover .sub-nav__items {
+  	display: block;
+}
+
+.sub-nav__item:hover {
+	background-color: #c0d1c0;
+	color: #000;
+}
+
+.large-hero {
+	height: 500px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("planta03.jpg");
+	background-size: cover;
+	border-bottom: 1px solid #408e28;
+}
+
+.large-hero__text-content {
+	text-align: center;
+	position: absolute;
+	top: 36%;
+	left: 50%;
+	transform: translate(-50%, -37.5%);
+	color: #ddf2cd;
+	font-family: 'Constantia';
+}
+
+.large-hero__title {
+	font-weight: 300;
+	font-size: 6rem;
+	margin-bottom: 0;
+}
+
+.large-hero__subtitle {
+	font-size: 1.5rem;
+	margin-top: 0;
+}
+
+
