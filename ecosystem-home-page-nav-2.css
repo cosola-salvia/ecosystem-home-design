@@ -37,9 +37,14 @@ img {
 	padding: 0.625em;
   	font-size: 1.0625rem;
   	text-align: center;
-  	border-left: 1px solid #408e08;
-  	border-right: 1px solid #408e08;
+  	border-left: .0625em solid #408e08;
+  	border-right: .0625em solid #408e08;
   	background-color: #f5f9ed;
+}
+
+.primary-nav__content {
+	display: flex;
+	align-items: center;
 }
 
 .primary-nav__content_items {
@@ -50,7 +55,7 @@ img {
  	padding: 0.938em;
  	background-color: rgba(21, 45, 3, 0.5);
  	opacity: 0.87;
- 	top: 42px;
+ 	top: 2.625em;
 }
 
 .primary-nav__content:hover .primary-nav__content_btn {
@@ -81,8 +86,7 @@ img {
 	display: none;
   	position: absolute;
   	background-color: #fcfcfc;
-  	width: 200px;
-  	border-radius: 0 5px 5px 5px;
+  	width: auto;
 }
 
 .sub-nav__item {
@@ -92,24 +96,12 @@ img {
 	text-align: left;
 }
 
-.sub-nav__btn {
-	color: #fff;
-}
-
-.primary-nav__content_btn, .sub-nav__btn {
+.primary-nav__content_btn {
   	width: 100%;
   	font-size: 0.895rem;  
   	padding: 0.625em;
-  	background: none;
-  	border: none;
-  	outline: none;
-  	font-family: 'Rockwell';
+ 	font-family: 'Rockwell';
   	opacity: 0.9;
-}
-
-.sub-nav:hover .sub-nav__btn {
-  	color: #000;
-  	background-color: #fcfcfc;
 }
 
 .sub-nav:hover .sub-nav__items {
@@ -122,10 +114,10 @@ img {
 }
 
 .large-hero {
-	height: 500px;
+	height: 75vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("planta03.jpg");
 	background-size: cover;
-	border-bottom: 1px solid #408e28;
+	border-bottom: .0625em solid #408e28;
 }
 
 .large-hero__text-content {
