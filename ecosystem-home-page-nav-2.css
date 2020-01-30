@@ -115,7 +115,7 @@ img {
 
 .large-hero {
 	height: 75vh;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("planta03.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/planta03.jpg");
 	background-size: cover;
 	border-bottom: .0625em solid #408e28;
 }
@@ -141,4 +141,73 @@ img {
 	margin-top: 0;
 }
 
+.footer__intro {
+	margin-top: 4em;  /*Just for the moment.*/
+	height: 45vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("./images/bg05.jpg");
+	background-size: cover;
+	border-bottom: .0625em solid #046875;
+	border-top: .0625em solid #046875;
+	text-align: center;
+}
+
+.footer__intro_text {
+	font-size: 3.125rem;
+	color: #ddf2cd;
+	margin-top: 78px;
+	margin-bottom: 20px;
+}
+
+.footer__btn {
+	color: #ddf2cd;
+	padding: 10px 55px;
+	font-size: 30px;
+	background-color: rgba(130, 130, 200, 0.9);
+	border-radius: 36.5px;
+	text-shadow: 2px 2px 1px #4e5e45;
+}
+
+.services {
+	display: grid;
+	grid-template-columns: 80% 1fr;
+}
+
+.services__info {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.services__info_title {
+	font-size: 1.9rem;
+	font-weight: 300;
+	padding: 20px;
+	text-align: center;
+}
+
+.services__info_title strong {
+	font-size: 4rem;
+}
+
+.services__info_schedule {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	padding: 30px;
+	font-size: 1.2rem;
+}
+
+.services_about {
+	display: grid;
+	grid-template-rows: repeat(4, 1fr);
+	padding: 50px 20px;
+	font-size: 1.1rem;
+}
+
+.services_about a {
+	color: #106d07;
+}
+
+.footer {
+	color: #7f847c;
+	font-size: 15px;
+}
 
