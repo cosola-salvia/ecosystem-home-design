@@ -113,6 +113,8 @@ img {
 	color: #000;
 }
 
+/*Large hero*/
+
 .large-hero {
 	height: 75vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/planta03.jpg");
@@ -141,6 +143,9 @@ img {
 	margin-top: 0;
 }
 
+
+/*Footer*/
+
 .footer__intro {
 	margin-top: 4em;  /*Just for the moment.*/
 	height: 45vh;
@@ -154,60 +159,87 @@ img {
 .footer__intro_text {
 	font-size: 3.125rem;
 	color: #ddf2cd;
-	margin-top: 78px;
-	margin-bottom: 20px;
+	margin-top: 1.37em;
+	margin-bottom: 0.8em;
 }
 
 .footer__btn {
 	color: #ddf2cd;
-	padding: 10px 55px;
-	font-size: 30px;
-	background-color: rgba(130, 130, 200, 0.9);
-	border-radius: 36.5px;
+	padding: 0.325em 2em;
+	font-size: 1.875em;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: 1px solid rgba(221, 242, 205, 0.7);
 	text-shadow: 2px 2px 1px #4e5e45;
 }
 
-.services {
-	display: grid;
-	grid-template-columns: 80% 1fr;
+.footer-nav {
+	display: flex;
+	font-family: 'Constantia';
+	font-size: 1.14rem;
+	align-items: center;
+	justify-content: center;
 }
 
-.services__info {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+.footer-nav__item {
+	padding: 1.25em;
+	color: #71776e;
 }
 
-.services__info_title {
-	font-size: 1.9rem;
-	font-weight: 300;
-	padding: 20px;
+.footer-nav__item:hover {
+	color: #6b410a;
+}
+
+.footer-services {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 	text-align: center;
+	margin-top: 0.625em;
 }
 
-.services__info_title strong {
+.footer-services__content {
+	margin: 0.625em;
+	border-radius: 1.25em;
+  	background-color: #f5f9ed;
+  	opacity: .80;
+}
+
+.footer-services_text {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.footer-services_text strong {
 	font-size: 4rem;
 }
 
-.services__info_schedule {
-	display: grid;
-	grid-template-rows: repeat(3, 1fr);
-	padding: 30px;
-	font-size: 1.2rem;
+
+.footer-services__title {
+	margin-bottom: 0;
+	margin-top: 4em;
 }
 
-.services_about {
-	display: grid;
-	grid-template-rows: repeat(4, 1fr);
-	padding: 50px 20px;
-	font-size: 1.1rem;
+.footer-services__subtitle {
+	margin-top: 0;
 }
 
-.services_about a {
-	color: #106d07;
+.footer-services__title, .footer-services__subtitle {
+	font-size: 1.3rem;
+	font-weight: 100;
 }
 
-.footer {
-	color: #7f847c;
-	font-size: 15px;
+.schecdule_time, .schecdule_place {
+	text-align: left;
+	list-style: none;
 }
+
+.botton-text {
+	background-color: #232106;
+	color: rgba(221, 242, 205, 0.7);
+	margin-top: 1.875em;
+ 	overflow: hidden;
+ 	padding-left: 0.625em;
+}
+
+
 
