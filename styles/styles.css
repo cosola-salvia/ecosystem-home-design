@@ -194,15 +194,14 @@ img {
 }
 .btn-medium--orange {
 	background-color: #ccb508;
-  border: 2px solid #f4df95;
+  	border: 2px solid #f4df95;
 	padding: 15px 20px;
 	margin-top: 18px;
 	text-transform: uppercase;
 	float: right;
 }
 .wrapper {
-  width: 90vw;
-	/*display: grid;*/
+  	width: 90vw;
 	margin-top: 3.5rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -217,7 +216,6 @@ img {
 	grid-template-rows: 350px 150px;
 	grid-gap: 2rem;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-/*	padding: 15px;*/
 	align-items:start;
 	justify-content: center;
 }
@@ -239,84 +237,99 @@ img {
 	color: #7c7c7c;
 }
 
-/*.section-selection__images img {
-	border: 2px solid #7c7c7c;
-} play no role*/
-
-.more-info {
-	grid-column: span 6;
-	background-color: rgba(16, 109, 7, 0.7);
-	border: 2px groove #274418;
+.footer__intro {
+	margin-top: 4em;  /*Just for the moment.*/
+	height: 45vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../images/footerBg.jpg");
+	background-size: cover;
+	border-bottom: .0625em solid #046875;
+	border-top: .0625em solid #046875;
 	text-align: center;
-	margin-top: 40px;
-	padding-top: 30px;
-	margin-bottom: 50px;
 }
 
-.more-info__text {
-	font-size: 35px;
+.footer__intro_text {
+	font-size: 3.125rem;
+	color: #ddf2cd;
+	margin-top: 1.37em;
+	margin-bottom: 0.8em;
 }
 
-.btn-small--orange {
-	color: #122b06;
-	padding: 10px;
-	text-transform: uppercase;
-	font-size: 20px;
-	background-color: #ccb508;
-	border: 2px solid #f4df95;
-/*	border-radius: 5px;*/
-	margin-left: 40px;
+.footer__btn {
+	color: #ddf2cd;
+	padding: 0.325em 2em;
+	font-size: 1.875em;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: 1px solid rgba(221, 242, 205, 0.7);
+	text-shadow: 2px 2px 1px #4e5e45;
 }
 
-.services {
+.footer-nav {
+	display: flex;
+	font-family: 'Constantia';
+	font-size: 1.14rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-nav__item {
+	padding: 1.25em;
+	color: #71776e;
+}
+
+.footer-nav__item:hover {
+	color: #6b410a;
+}
+
+.footer-services {
 	display: grid;
-	grid-template-columns: 80% 1fr;
-	/*background-color: #cccccc; */
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+	margin-top: 0.625em;
 }
 
-.services__info {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	margin-top: 50px;
+.footer-services__content {
+	margin: 0.625em;
+	border-radius: 1.25em;
+  	background-color: #f5f9ed;
+  	opacity: .80;
 }
 
-.services__info_title {
-	font-size: 1.9rem;
+.footer-services_text {
+	font-size: 3rem;
 	font-weight: 300;
-	padding: 20px;
-	text-align: center;
 }
 
-.services__info_title strong {
-	font-size: 2.9rem;
+.footer-services_text strong {
+	font-size: 4rem;
 }
 
-.services__info_schedule {
-	display: grid;
-	grid-template-rows: repeat(3, 1fr);
-	padding: 30px;
-	font-size: 1.2rem;
+
+.footer-services__title {
+	margin-bottom: 0;
+	margin-top: 4em;
 }
 
-.services_about {
-	display: grid;
-	grid-template-rows: repeat(4, 1fr);
-	padding: 50px 20px;
-	margin-top: 22px;
-	font-size: 1.1rem;
+.footer-services__subtitle {
+	margin-top: 0;
 }
 
-.services_about a {
-	color: #106d07;
+.footer-services__title, .footer-services__subtitle {
+	font-size: 1.3rem;
+	font-weight: 100;
 }
 
-.footer {
-	height: 130px;
-	background-color: #f2f2f2;
-	color: #7f847c;
-	font-size: 12px;
-	padding-left: 15px;
-	padding-top: 30px;
-	margin-top: 50px;
+.schecdule_time, .schecdule_place {
+	text-align: left;
+	list-style: none;
 }
+
+.botton-text {
+	background-color: #232106;
+	color: rgba(221, 242, 205, 0.7);
+	margin-top: 1.875em;
+ 	overflow: hidden;
+ 	padding-left: 0.625em;
+}
+
 
